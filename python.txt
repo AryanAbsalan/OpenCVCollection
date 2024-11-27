@@ -1,0 +1,32 @@
+# Generate a requirements file and then install from it in another environment.
+
+Windows
+env1\bin\python -m pip freeze > requirements.txt
+env2\bin\python -m pip install -r requirements.txt
+
+# dictLootp
+for key in dict.keys():
+value = dict[key]
+print(key , "=", value)
+
+for key, value in dict.items():
+print(key , "=", value)
+
+print(80* "-")
+"......{0},{1},{2}".format(a,b,c) #string.format
+
+#Vi Tips
+:wq     write and quit 
+:q!     ignore changes
+
+I       beggining of the line
+A       End of the line 
+W       next word
+B       previous word
+v       visual mode then select   then    d       for delete
+v       visual mode then select   then    y       for copy
+and                                       p       for paste  
+
+
+
+
